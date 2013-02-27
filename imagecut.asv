@@ -1,0 +1,10 @@
+%read the image
+img = imread('P1080646.jpeg');.
+%identify the 
+left = 1;
+right = 801;
+up = 1;
+down = 601;
+outimg = img(left:right,up:down,:);
+imwrite(outimg,'picout.jpeg');
+
