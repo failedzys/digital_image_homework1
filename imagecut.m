@@ -7,6 +7,6 @@ up = 1;
 down = 800;
 %cut the picture and output it
 outimg = img(up:down,left:right,:);
-% outimg = imcrop(img,[left,up,right,down]) also runs
+%use outimg = imcrop(img,[left,up,right,down]) also runs
 imwrite(outimg,'picout.jpeg');
 
